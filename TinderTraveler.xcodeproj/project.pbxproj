@@ -21,6 +21,20 @@
 		E033C0F519EF56D4003FBBAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E033C0D719EF56D3003FBBAA /* UIKit.framework */; };
 		E033C0FD19EF56D4003FBBAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E033C0FB19EF56D4003FBBAA /* InfoPlist.strings */; };
 		E033C0FF19EF56D4003FBBAA /* TinderTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E033C0FE19EF56D4003FBBAA /* TinderTravelerTests.m */; };
+		E033C10A19EF5796003FBBAA /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E033C10919EF5796003FBBAA /* HomePageController.m */; };
+		E033C10C19F008DD003FBBAA /* BucketPageController.m in Resources */ = {isa = PBXBuildFile; fileRef = E033C10B19F008DD003FBBAA /* BucketPageController.m */; };
+		E0A54BEC19F2ECF600B57966 /* FBGraphAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0A54BE719F2ECF600B57966 /* FBGraphAPI.plist */; };
+		E0A54BF019F2EF2200B57966 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A54BEF19F2EF2200B57966 /* FacebookSDK.framework */; };
+		E0B35DE519F7A9B4000AD447 /* MatchPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B35DE419F7A9B4000AD447 /* MatchPageController.m */; };
+		E0B35DE819F7AA84000AD447 /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DE719F7AA84000AD447 /* Match.storyboard */; };
+		E0B35DEC19F7C8E9000AD447 /* YesImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DEB19F7C8E9000AD447 /* YesImage.png */; };
+		E0B35DEE19F7C944000AD447 /* NoImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DED19F7C944000AD447 /* NoImage.jpg */; };
+		E0B35DF019F9B572000AD447 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DEF19F9B572000AD447 /* settings.png */; };
+		E0B35DF419F9B71C000AD447 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DF319F9B71C000AD447 /* chat.png */; };
+		E0B35DF619F9BE5A000AD447 /* spark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0B35DF519F9BE5A000AD447 /* spark.jpg */; };
+		E0B35DFE19F9E57D000AD447 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B35DFD19F9E57D000AD447 /* SettingsController.m */; };
+		E0F2989519F3524A0065ECB7 /* SignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F2989419F3524A0065ECB7 /* SignInController.m */; };
+		E0F2989719F437D30065ECB7 /* chan_cusco_train.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0F2989619F437D30065ECB7 /* chan_cusco_train.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +52,6 @@
 		E033C0D319EF56D3003FBBAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E033C0D519EF56D3003FBBAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E033C0D719EF56D3003FBBAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E033C0DB19EF56D3003FBBAA /* TinderTraveler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinderTraveler-Info.plist"; sourceTree = "<group>"; };
 		E033C0DD19EF56D3003FBBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E033C0DF19EF56D3003FBBAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E033C0E119EF56D3003FBBAA /* TinderTraveler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinderTraveler-Prefix.pch"; sourceTree = "<group>"; };
@@ -53,6 +66,26 @@
 		E033C0FA19EF56D4003FBBAA /* TinderTravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinderTravelerTests-Info.plist"; sourceTree = "<group>"; };
 		E033C0FC19EF56D4003FBBAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E033C0FE19EF56D4003FBBAA /* TinderTravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderTravelerTests.m; sourceTree = "<group>"; };
+		E033C10819EF5796003FBBAA /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		E033C10919EF5796003FBBAA /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		E033C10B19F008DD003FBBAA /* BucketPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BucketPageController.m; sourceTree = "<group>"; };
+		E033C10D19F00906003FBBAA /* BucketPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BucketPageController.h; sourceTree = "<group>"; };
+		E0A54BE719F2ECF600B57966 /* FBGraphAPI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FBGraphAPI.plist; sourceTree = "<group>"; };
+		E0A54BE819F2ECF600B57966 /* FBGraphAPISample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBGraphAPISample-Prefix.pch"; sourceTree = "<group>"; };
+		E0A54BEF19F2EF2200B57966 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		E0B35DE419F7A9B4000AD447 /* MatchPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchPageController.m; sourceTree = "<group>"; };
+		E0B35DE619F7AA2F000AD447 /* MatchPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchPageController.h; sourceTree = "<group>"; };
+		E0B35DE719F7AA84000AD447 /* Match.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Match.storyboard; sourceTree = "<group>"; };
+		E0B35DEB19F7C8E9000AD447 /* YesImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YesImage.png; sourceTree = "<group>"; };
+		E0B35DED19F7C944000AD447 /* NoImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NoImage.jpg; sourceTree = "<group>"; };
+		E0B35DEF19F9B572000AD447 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		E0B35DF319F9B71C000AD447 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		E0B35DF519F9BE5A000AD447 /* spark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spark.jpg; sourceTree = "<group>"; };
+		E0B35DFD19F9E57D000AD447 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = ../SettingsController.m; sourceTree = "<group>"; };
+		E0B35DFF19F9E5CC000AD447 /* SettingsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		E0F2989319F352110065ECB7 /* SignInController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInController.h; sourceTree = "<group>"; };
+		E0F2989419F3524A0065ECB7 /* SignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInController.m; sourceTree = "<group>"; };
+		E0F2989619F437D30065ECB7 /* chan_cusco_train.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chan_cusco_train.jpg; path = ../../../../../Pictures/Chan/chan_cusco_train.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +94,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E033C0D619EF56D3003FBBAA /* CoreGraphics.framework in Frameworks */,
+				E0A54BF019F2EF2200B57966 /* FacebookSDK.framework in Frameworks */,
 				E033C0D819EF56D3003FBBAA /* UIKit.framework in Frameworks */,
 				E033C0D419EF56D3003FBBAA /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +135,7 @@
 		E033C0D219EF56D3003FBBAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E0A54BEF19F2EF2200B57966 /* FacebookSDK.framework */,
 				E033C0D319EF56D3003FBBAA /* Foundation.framework */,
 				E033C0D519EF56D3003FBBAA /* CoreGraphics.framework */,
 				E033C0D719EF56D3003FBBAA /* UIKit.framework */,
@@ -112,12 +147,24 @@
 		E033C0D919EF56D3003FBBAA /* TinderTraveler */ = {
 			isa = PBXGroup;
 			children = (
+				E0F2989319F352110065ECB7 /* SignInController.h */,
+				E0F2989419F3524A0065ECB7 /* SignInController.m */,
+				E0B35DFF19F9E5CC000AD447 /* SettingsController.h */,
+				E0B35DFD19F9E57D000AD447 /* SettingsController.m */,
+				E0B35DE619F7AA2F000AD447 /* MatchPageController.h */,
+				E0B35DE419F7A9B4000AD447 /* MatchPageController.m */,
+				E033C10819EF5796003FBBAA /* HomePageController.h */,
+				E033C10919EF5796003FBBAA /* HomePageController.m */,
+				E033C10D19F00906003FBBAA /* BucketPageController.h */,
+				E033C10B19F008DD003FBBAA /* BucketPageController.m */,
 				E033C0E219EF56D3003FBBAA /* HGRAppDelegate.h */,
 				E033C0E319EF56D3003FBBAA /* HGRAppDelegate.m */,
 				E033C0E519EF56D3003FBBAA /* Main.storyboard */,
+				E0B35DE719F7AA84000AD447 /* Match.storyboard */,
 				E033C0E819EF56D3003FBBAA /* HGRViewController.h */,
 				E033C0E919EF56D3003FBBAA /* HGRViewController.m */,
 				E033C0EB19EF56D3003FBBAA /* Images.xcassets */,
+				E033C0DF19EF56D3003FBBAA /* main.m */,
 				E033C0DA19EF56D3003FBBAA /* Supporting Files */,
 			);
 			path = TinderTraveler;
@@ -126,9 +173,15 @@
 		E033C0DA19EF56D3003FBBAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E033C0DB19EF56D3003FBBAA /* TinderTraveler-Info.plist */,
+				E0B35DF519F9BE5A000AD447 /* spark.jpg */,
+				E0B35DF319F9B71C000AD447 /* chat.png */,
+				E0B35DEF19F9B572000AD447 /* settings.png */,
+				E0B35DED19F7C944000AD447 /* NoImage.jpg */,
+				E0B35DEB19F7C8E9000AD447 /* YesImage.png */,
+				E0F2989619F437D30065ECB7 /* chan_cusco_train.jpg */,
+				E0A54BE719F2ECF600B57966 /* FBGraphAPI.plist */,
+				E0A54BE819F2ECF600B57966 /* FBGraphAPISample-Prefix.pch */,
 				E033C0DC19EF56D3003FBBAA /* InfoPlist.strings */,
-				E033C0DF19EF56D3003FBBAA /* main.m */,
 				E033C0E119EF56D3003FBBAA /* TinderTraveler-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -229,9 +282,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F2989719F437D30065ECB7 /* chan_cusco_train.jpg in Resources */,
+				E0B35DF619F9BE5A000AD447 /* spark.jpg in Resources */,
+				E0A54BEC19F2ECF600B57966 /* FBGraphAPI.plist in Resources */,
+				E0B35DE819F7AA84000AD447 /* Match.storyboard in Resources */,
+				E0B35DF419F9B71C000AD447 /* chat.png in Resources */,
 				E033C0EC19EF56D3003FBBAA /* Images.xcassets in Resources */,
 				E033C0DE19EF56D3003FBBAA /* InfoPlist.strings in Resources */,
+				E0B35DEC19F7C8E9000AD447 /* YesImage.png in Resources */,
+				E0B35DF019F9B572000AD447 /* settings.png in Resources */,
 				E033C0E719EF56D3003FBBAA /* Main.storyboard in Resources */,
+				E0B35DEE19F7C944000AD447 /* NoImage.jpg in Resources */,
+				E033C10C19F008DD003FBBAA /* BucketPageController.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +314,11 @@
 			files = (
 				E033C0E419EF56D3003FBBAA /* HGRAppDelegate.m in Sources */,
 				E033C0EA19EF56D3003FBBAA /* HGRViewController.m in Sources */,
+				E0B35DFE19F9E57D000AD447 /* SettingsController.m in Sources */,
 				E033C0E019EF56D3003FBBAA /* main.m in Sources */,
+				E0F2989519F3524A0065ECB7 /* SignInController.m in Sources */,
+				E0B35DE519F7A9B4000AD447 /* MatchPageController.m in Sources */,
+				E033C10A19EF5796003FBBAA /* HomePageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +443,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chan_2001/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TinderTraveler/TinderTraveler-Prefix.pch";
-				INFOPLIST_FILE = "TinderTraveler/TinderTraveler-Info.plist";
+				INFOPLIST_FILE = TinderTraveler/FBGraphAPI.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +462,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/chan_2001/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TinderTraveler/TinderTraveler-Prefix.pch";
-				INFOPLIST_FILE = "TinderTraveler/TinderTraveler-Info.plist";
+				INFOPLIST_FILE = TinderTraveler/FBGraphAPI.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +535,7 @@
 				E033C10419EF56D4003FBBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E033C10519EF56D4003FBBAA /* Build configuration list for PBXNativeTarget "TinderTravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +544,7 @@
 				E033C10719EF56D4003FBBAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
